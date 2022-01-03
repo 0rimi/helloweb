@@ -13,8 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/gugudan")
 public class GugudanSevlet extends HttpServlet {
 	
-       
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//코드작성부분
 		response.setContentType("text/html;charset=utf-8");
